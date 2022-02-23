@@ -1,0 +1,24 @@
+{
+  "name": "Daliy-code",
+  "version": "1.0.0",
+  "description": "<!--  * @file: description  * @author: longjing03  * @Date: 2021-11-09 09:51:10  * @LastEditors: longjing03  * @LastEditTime: 2021-11-29 19:47:00 -->f'f'f# Daliy-code",
+  "main": "1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jingdd-boop/Daliy-code.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jingdd-boop/Daliy-code/issues"
+  },
+  "homepage": "https://github.com/jingdd-boop/Daliy-code#readme",
+  "devDependencies": {
+    "@jingjing20/eslint-vue": "^1.3.0",
+    "@jingjing20/prettier": "^0.0.12"
+  }
+}

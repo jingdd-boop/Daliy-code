@@ -3,7 +3,7 @@
  * @author: longjing03
  * @Date: 2021-11-09 09:53:58
  * @LastEditors: longjing03
- * @LastEditTime: 2021-11-09 09:55:12
+ * @LastEditTime: 2021-12-11 12:14:12
  */
 // 解题思路
 // 一个数组 nums
@@ -25,18 +25,14 @@
  * @param {number} target
  * @return {number[]}
  */
-var twoSum = function(nums, target) {
-    let map = new Map();
-    for (let i = 0;i < nums.length;i++) {
-        
-         if (map.has(target - nums[i])) {
-             console.log(target - nums[i])
-            return [i,map.get(target - nums[i])]
-        } else {
-            map.set(nums[i],i)
-        }
+var twoSum = function (nums, target) {
+  let map = new Map();
+  for (let i = 0; i < nums.length; i++) {
+    if (map.has(target - nums[i])) {
+      console.log(target - nums[i]);
+      return [i, map.get(target - nums[i])];
+    } else {
+      map.set(nums[i], i);
     }
-
-   
+  }
 };
-
