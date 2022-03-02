@@ -46,10 +46,3 @@ CQueue.prototype.deleteHead = function () {
 // 而队列的特点， 是先进先出  1 2 3 4 5  依次出栈的话   出栈顺序 1 2 3 4 5
 
 // 准备两个栈 A： 1 2 3 4 5 入栈到  B： 5 4 3 2 1  B 出栈： 1 2 3 4 5  完成
-
-var obj = new CQueue();
-obj.appendTail(4);
-
-var param_2 = obj.deleteHead();
-
-console.log(param_2, "param_2 ");
